@@ -1,0 +1,27 @@
+{
+  "name": "thulir-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivasaayi/thulir-utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivasaayi/thulir-utils/issues"
+  },
+  "homepage": "https://github.com/vivasaayi/thulir-utils#readme",
+  "dependencies": {
+    "@aws-sdk/client-kinesis": "^3.23.0",
+    "npm": "^7.20.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
